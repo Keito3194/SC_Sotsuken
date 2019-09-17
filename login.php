@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>PHPのログイン機能</title>
+        <title>学生ログイン</title>
         <link rel="stylesheet" href="style.css">
         
         <!-- Bootstrap読み込み（スタイリングのため） -->
@@ -20,7 +20,7 @@
         <form method="post">
             
         <div class="form-group">
-            <input type="email"  class="form-control" name="email" placeholder="メールアドレス" required />
+            <input type="text"  class="form-control" name="text" placeholder="学籍番号" required />
             </div>
         <div class="form-group">
             <input type="password" class="form-control" name="password" placeholder="パスワード" required />
